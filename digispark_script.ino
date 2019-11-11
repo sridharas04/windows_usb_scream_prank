@@ -1,5 +1,3 @@
-
-//Author:Darkprice
 #include "DigiKeyboard.h"
 void setup() { //execute once
   DigiKeyboard.sendKeyStroke(0);
