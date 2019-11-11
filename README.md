@@ -1,2 +1,8 @@
 # windows_usb_scream_prank
-When digispark badusb connected to windows system, it will executes following script adds an entry in registry. Each time user disconnects a usb the computer will plays a screaming sound.
+To revert this prank, goto registry and navigate to following 
+
+ HKEY_CURRENT_USER\AppEvents\Schemes\Apps\.Default\DeviceDisconnect\.Default and copy the value of registry.
+ 
+ then move upward to 
+ 
+ HKEY_CURRENT_USER\AppEvents\Schemes\Apps\.Default\DeviceDisconnect\.Current  and paste the value.
